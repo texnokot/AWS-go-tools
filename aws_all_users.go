@@ -3,6 +3,7 @@
 
 // Script gets all AWS IAM users, taking into account truncating. Just to be sure that we haven't missed anyone :)
 // It supposed to run with ARN applied taken from an environment variable. ARN role shall have permission to list Users (iam:ListUsers)
+
 package main
 
 import (
